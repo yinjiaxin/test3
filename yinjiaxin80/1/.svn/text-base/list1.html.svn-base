@@ -1,0 +1,680 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/list.css" />
+<script src="js/list.js"></script>
+<script>
+window.onload=function (){
+	list.search();	
+	list.listbox1();
+	list.browse();
+	list.xiaomei();
+	list.listbox();
+};
+</script>
+</head>
+
+<body>
+	<div class="head">
+		<div class="head-t clearfix">
+			<ul class="llist clearfix">
+				<li class=" clearfix">
+					<i class="star"></i>
+					<a href="#" class="a1">收藏美团</a>
+				</li>
+				<li><a href="#" class="a2">登陆</a></li>
+				<li><a href="#" class="a3">注册</a></li>
+				<li>
+					<i class="phone"></i>
+					<a href="#" class="a4">手机美团</a>
+				</li>
+			</ul>
+			<ul class="rlist">
+				<li><a href="#" class="a1">我的订单</a></li>
+				<li><a href="#">我的美团</a></li>
+				<li><a href="#">最近浏览</a></li>
+				<li><a href="#">购物车0件</a></li>
+				<li><a href="#">联系客服</a></li>
+				<li>
+					<a href="#">我是商家</a>
+					<ul class="buscenter">
+						<li>登陆商家中心</li>
+						<li>登陆商家中心</li>
+						<li>登陆商家中心</li>
+						<li>登陆商家中心</li>
+					</ul>
+				</li>
+				<li><a href="#" class="a2">更多</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<i></i>
+		<img src="images/banner.jpg" />
+	</div>
+	
+	<div class="headbox clearfix">
+		<h1><a href="#">美团</a></h1>
+		<div class="map">北京
+			<span>切换城市</span>
+		</div>
+		<div class="search clearfix" id="search">
+			<p>团购</p>
+			<input type="text" class="txt" />
+			<input type="button" value="搜索" class="btn" />
+			<i>请输入商品名称、地址等</i>
+		</div>
+		<div class="headbox-r">
+			<p><i class="lcon"></i><span>临时退</span></p>
+			<p><i class="mcon"></i><span>不满意免单</span></p>
+			<p><i class="rcon"></i>过期退</p>
+		</div>
+	</div>
+	<div class="navbox">
+		<ul class="navlist clearfix">
+			<li class="first">全部分类</li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">今日新单</a></li>
+			<li><a href="#">购物</a></li>
+			<li><a href="#">身边外卖</a></li>
+		</ul>
+	</div>
+	
+	<div class="listbox1 clearfix" id="listbox">
+		<div class="listbox_t">
+			<h5>全部</h5>
+			<i></i>
+			<div class="listbox_t_l clearfix">
+				<strong></strong>
+				<span>区域：</span>
+				<span class="span2">海淀区</span>
+				<b></b>	
+				<ul>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+				</ul>
+				
+			</div>
+			<i></i>	
+			
+			<div class="listbox_t_l clearfix">
+				<strong></strong>
+				<span>商圈：</span>
+				<span class="span2">美团</span>
+				<b></b>	
+				<ul>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+					<li>海淀区:
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">回龙观</a>
+						<a href="javascript:;">西二旗</a>
+						<a href="javascript:;">上地</a>
+						<a href="javascript:;">上地</a>
+					</li>
+				</ul>	
+			</div>
+			
+		</div>
+		<div class="listbox_b clearfix">
+			<h5>分类：</h5>
+			<a href="#" class="first">全部</a>
+			<a href="#">美食</a>
+			<a href="#">休闲娱乐</a>
+			<a href="#">生活服务</a>
+			<a href="#">全部</a>
+			<a href="#">美食</a>
+			<a href="#">休闲娱乐</a>
+			<a href="#">生活服务</a>
+			<a href="#">全部</a>
+			<a href="#">美食</a>
+			<a href="#">休闲娱乐</a>
+			<a href="#">生活服务</a>
+		</div>
+	</div>
+	<div class="content clearfix">
+		<ul class="conlist clearfix" id="list">
+			<li class="active">默认</li>
+			<li>销量<i></i></li>
+			<li class="up">价格<i></i></li>
+			<li>好评<i></i></li>
+			<li>发布时间<i></i></li>
+		</ul>
+	</div>
+	<div class="listbox clearfix">	  
+		<ul class="list clearfix">
+			<li class="l1">
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li class="l1">
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/haohuaguoji.jpg"/>
+				</a>
+				<div >
+					<h4><a href="#">【北京】海天剧院</a></h4>
+					<p>海淀剧院31超值单人电影票，可观看2D/3D</p>
+					<p class="clearfix">
+						<span class="span1">￥31 </span>
+						<span class="span2">门店价 ￥80</span>
+					</p>
+					<p class="clearfix p2">
+						<b>698人已评价</b>
+						<span>已售 <i>35532</i></span>
+					</p>
+				</div>
+			</li>
+			
+		</ul>
+		<div class="listbox_r">
+			<div class="down">
+				<a href="#"><div class="t"></div></a>
+				<a href="#"><div class="b"></div></a>
+			</div>
+			<div class="hot">
+				<h3>热门专题</h3>
+				<a href="#">
+					<img src="images/1.png" />
+				</a>
+			</div>
+			<div class="guess">
+				<h3>猜你喜欢</h3>
+				<a href="#" >
+					<img src="images/4.jpg" />
+				</a>
+				<h4>【西单】掉香缘掉渣饼掉香缘掉渣饼</h4>
+				<p class="clearfix">
+					<span>￥4.9</span>
+					已售
+					<span class="span2">138155</span>
+				</p>
+			</div>
+			<div class="banner1">
+				<p>薇拉宫邸私人婚礼会所，免…</p>
+				<p>薇拉宫邸私人婚礼会所，免…</p>
+				<p>薇拉宫邸私人婚礼会所，免…</p>
+			</div>
+			<div class="sidebar_b">
+				<a href="#"></a>
+				<p>有您的意见美团才能更好&gt;&gt;</p>
+				<p class="p2">希望在美团网组织团购吗？<br />
+					请提交团购信息&gt;&gt;
+				</p>
+			</div>
+			<div class="foot" id="browse">
+				<h4>最近浏览
+					<span id="span1">清空</span>
+				</h4>
+				<ul class="footlist clearfix">
+			<li class="first clearfix">
+				<a href="#"><img src="images/qiushi.jpg" /></a>
+				<div>
+					<p>宝利国际影城</p>
+					<p><span>￥41</span> 门店价：<span class="span2">￥99</span></p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img src="images/qiushi.jpg" /></a>
+				<div>
+					<p>宝利国际影城</p>
+					<p><span>￥41</span> 门店价：<span class="span2">￥99</span></p>
+				</div>
+			</li>
+		</ul>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="fk_wrap">
+    	<ul class="clearfix fk_dy">
+        	<li class="li1">
+            	<p>获取更新</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>邮件订阅</a></div>
+                <div><a href="javascript:;"><span>•</span>Iphone/Android</a></div>
+                <div><a href="javascript:;"><span>•</span>美团QQ空间</a></div>
+                <div><a href="javascript:;"><span>•</span>美团新浪微博</a></div>
+                <div><a href="javascript:;"><span>•</span>sitemap</a></div>
+                <div><a href="javascript:;"><span>•</span>RSS订阅</a></div>
+            </li>
+            <li class="li1">
+            	<p>商务合作</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>提供团购信息</a></div>
+                <div><a href="javascript:;"><span>•</span>美团商家营销平台</a></div>
+                <div><a href="javascript:;"><span>•</span>市场合作</a></div>
+                <div><a href="javascript:;"><span>•</span>美团联盟</a></div>
+                <div><a href="javascript:;"><span>•</span>廉政邮箱</a></div>
+                <div><a href="javascript:;"><span></span>lianzheng@meituan.com</a></div>
+            </li>
+            <li class="li1">
+            	<p>公司信息</p>
+                <div><a href="javascript:;"><span>•</span>关于美团</a></div>
+                <div><a href="javascript:;"><span>•</span>美团承诺</a></div>
+                <div><a href="javascript:;"><span>•</span>媒体报道</a></div>
+                <div><a href="javascript:;"><span>•</span>加入我们</a></div>
+                <div><a href="javascript:;"><span>•</span>法律声明</a></div>
+                <div><a href="javascript:;"><span>•</span>用户协议</a></div>
+            </li>
+            <li class="li1">
+            	<p>用户帮助</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>申请退款</a></div>
+                <div><a href="javascript:;"><span>•</span>查看美团券密码</a></div>
+                <div><a href="javascript:;"><span>•</span>常见问题</a></div>
+                <div><a href="javascript:;"><span>•</span>开放API</a></div>
+                <div><a href="javascript:;"><span>•</span>美团云</a></div>
+                <div><a href="javascript:;"><span>•</span>防诈骗公告</a></div>
+            </li>
+            <li class="li2">
+            	<img src="images/fk_foot1.jpg" width="226" height="89" alt=""/>
+                <div><a class="a1" href="javascript:;">退款、退换、货查看美团券</a></div>
+                <div><a class="a2" href="javascript:;">参考教程轻松搞定</a></div>
+                <div><a class="a3"href="javascript:;">客服电话:400-660-5335</a></div>
+                <div><a href="javascript:;">服务时间:每天9:00-22:00</a></div>
+            </li>
+        </ul>
+        <ul class="fk_icp clearfix">
+        	<li><a href="javascript:;">2015美团网团购</a></li>
+            <li><span>meituan.com</span></li>
+            <li><a href="javascript:;">京ICP证070791号</a></li>
+            <li><a href="javascript:;">京公网安备110105020255457号</a></li>
+            <li><a href="javascript:;">电子公告服务规则</a></li>
+        </ul>
+        <a class="fk_xx"href="javascript:;"><img src="images/fk_foot3.jpg" width="124" /></a><a href="javascript:;"><img src="images/fk_foot2.jpg" width="124" /></a><a href="javascript:;"><img src="images/fk_foot4.jpg" width="115" /></a><a href="javascript:;"><img src="images/fk_foot5.jpg" width="142" /></a><a href="javascript:;"><img src="images/fk_oot6.jpg" width="123" alt=""/></a>
+    </div>
+	<div class="xiaomei" id="xiaomei"><i></i><b></b></div>
+</body>
+</html>

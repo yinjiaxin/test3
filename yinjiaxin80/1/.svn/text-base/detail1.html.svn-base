@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/detail.css" />
+<script src="js/detail.js"></script>
+<script>
+window.onload=function (){
+	detail.list();
+};
+
+</script>
+</head>
+
+<body>
+	<div class="head">
+		<div class="head-t clearfix">
+			<ul class="llist clearfix">
+				<li class=" clearfix">
+					<i class="star"></i>
+					<a href="#" class="a1">收藏美团</a>
+				</li>
+				<li><a href="#" class="a2">登陆</a></li>
+				<li><a href="#" class="a3">注册</a></li>
+				<li>
+					<i class="phone"></i>
+					<a href="#" class="a4">手机美团</a>
+				</li>
+			</ul>
+			<ul class="rlist">
+				<li><a href="#" class="a1">我的订单</a></li>
+				<li><a href="#">我的美团</a></li>
+				<li><a href="#">最近浏览</a></li>
+				<li><a href="#">购物车0件</a></li>
+				<li><a href="#">联系客服</a></li>
+				<li>
+					<a href="#">我是商家</a>
+					<ul class="buscenter">
+						<li>登陆商家中心</li>
+						<li>登陆商家中心</li>
+						<li>登陆商家中心</li>
+						<li>登陆商家中心</li>
+					</ul>
+				</li>
+				<li><a href="#" class="a2">更多</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<i></i>
+		<img src="images/banner.jpg" />
+	</div>
+	
+	<div class="headbox clearfix">
+		<h1><a href="#">美团</a></h1>
+		<div class="map">北京
+			<span>切换城市</span>
+		</div>
+		<div class="search clearfix">
+			<p>团购</p>
+			<input type="text" class="txt" />
+			<input type="button" value="搜索" class="btn" />
+			<i>请输入商品名称、地址等</i>
+		</div>
+		<div class="headbox-r">
+			<p><i class="lcon"></i><span>临时退</span></p>
+			<p><i class="mcon"></i><span>不满意免单</span></p>
+			<p><i class="rcon"></i>过期退</p>
+		</div>
+	</div>
+	<div class="navbox">
+		<ul class="navlist clearfix">
+			<li class="first">全部分类</li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">今日新单</a></li>
+			<li><a href="#">购物</a></li>
+			<li><a href="#">身边外卖</a></li>
+		</ul>
+	</div>
+	<div class="contentbox">
+		<a href="#">北京团购</a>
+		<span>&gt;&gt;</span>
+		<a href="#">休闲娱乐团购</a>
+		<span>&gt;&gt;</span>
+		<a href="#">运动健身</a>
+		<span>&gt;&gt;</span>
+		<a href="#">海淀区</a>
+		<span>&gt;&gt;</span>
+		<a href="#">中关村</a>
+		<span>&gt;&gt;</span>
+		<a href="#">夜时尚</a>
+		<span>&gt;&gt;</span>
+	</div>
+	<div class="detailbox clearfix">
+		<div class="detailbox_t">
+			<h3>【长阳镇】吾饮良品</h3>
+			<P>仅售50元！价值60元的代金券1张，全场通用，可叠加使用，提供免费WiFi。</P>
+		</div>
+		<div class="detailbox_b clearfix">
+			<div class="detailbox_b_l">
+				<div class="detailbox_b_l_t" >
+					<ul class="detaillist_t" id="detaillist_t">
+						<li><img src="images/d1.jpg" /></li>
+						<li><img src="images/d2.jpg" /></li>
+						<li><img src="images/d3.jpg" /></li>
+						<li><img src="images/d4.jpg" /></li>
+					</ul>
+				</div>
+				<ul class="detaillist_b" id="detaillist_b">
+					<li class="active"><img src="images/d1.jpg" /></li>
+					<li><img src="images/d2.jpg" /></li>
+					<li><img src="images/d3.jpg" /></li>
+					<li><img src="images/d4.jpg" /></li>
+				</ul>
+			</div>
+			<div class="detailbox_b_r clearfix">
+				<div class="detailbox_b_r1">
+					<span class="span1">团购价</span>
+					<i class="i1">￥<strong>59</strong></i>
+					<p>门店价<span>￥126</span></p>
+				</div>
+				<div class="detailbox_b_r2">
+					<span class="span2">已售<i>2036</i></span>
+					<span class="span3"><i>4.1</i>分</span>
+					<span><i>398</i>人评价</span>
+				</div>
+				<div class="detailbox_b_r3">
+					<span class="span1">有效期</span>
+					<span>截止到2016.01.19<i>周末、节假日通用</i></span>
+				</div>
+				<div class="detailbox_b_r4">
+					<span class="span1">数量</span>
+					<p>
+						<input type="button" value="-" class="btn" id="lbtn" />
+						<input type="text" class="txt" value="1" id="txt" />
+						<input type="button" value="+" class="btn" id="rbtn" />
+					</p>
+					<i>最少1件起售</i>
+				</div>
+				<div class="detailbox_b_r5">
+					<input type="submit" value="立刻购买" class="sub" />
+					<i></i>
+					<a href="#">收藏</a>
+					<a href="#">分享到</a>
+				</div>
+				<div class="detailbox_b_r6">
+					<span class="span1">服务承诺</span>
+					<p>
+						<a href="#">随时退</a>
+						<a href="#">过期退</a>
+						<a href="#">急速退</a>
+						<a href="#">真实评价</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="detl clearfix">
+		<div class="detl_l">
+			<div class="detl_l_t clearfix">
+				<p class="lp">重要通知</p>
+				<p class="rp">该商家的其他商品 团购价 门店价 已售</p>
+			</div>
+			<div class="other clearfix">
+				<div class="other_t">
+					<p>该商家的其他团购</p>
+					<span>团购价</span>
+					<span>门店价</span>
+					<span class="span1">已售</span>
+				</div>
+				<div class="other_b">
+					<p>玛喜达韩国年糕料理</p>
+					<span class="span2">￥20</span>
+					<span>￥40</span>
+					<span class="span1">6743</span>
+				</div>
+			</div>
+			<div class="pos">
+				<ul>
+					<li class="show">商家位置</li>
+					<li>购买须知</li>
+					<li>商品详情</li>
+					<li>商家介绍</li>
+					<li>消费评价</li>
+				</ul>
+			</div>
+			<div class="map1 clearfix">
+				<h4>商家位置</h4>
+				<div class="map1_l">
+					<img src="images/ss_10.png" alt="商家位置" />
+				</div>
+				<div class="map1_r ">
+					<p class="p1">燕京啤酒花园(体育公园店)</p>
+					<p class="p2">商家累积评分暂无评分</p>
+					<p>地址：丰台区方庄地区蒲方路7号西（方庄环岛北100</p>
+					<p>米方庄体育公园东门）</p>
+					<p class="p2">查看地图 公交/驾车去这里</p>
+					<p>地铁：距蒲黄榆站约734米</p>
+					<p>电话：13901234567</p>
+				</div>
+			</div>
+			<div class="map1 clearfix">
+				<h4>商家位置</h4>
+				<div class="map1_l">
+					<img src="images/ss_10.png" alt="商家位置" />
+				</div>
+				<div class="map1_r ">
+					<p class="p1">燕京啤酒花园(体育公园店)</p>
+					<p class="p2">商家累积评分暂无评分</p>
+					<p>地址：丰台区方庄地区蒲方路7号西（方庄环岛北100</p>
+					<p>米方庄体育公园东门）</p>
+					<p class="p2">查看地图 公交/驾车去这里</p>
+					<p>地铁：距蒲黄榆站约734米</p>
+					<p>电话：13901234567</p>
+				</div>
+			</div>
+			<div class="map1 clearfix">
+				<h4>商家位置</h4>
+				<div class="map1_l">
+					<img src="images/ss_10.png" alt="商家位置" />
+				</div>
+				<div class="map1_r ">
+					<p class="p1">燕京啤酒花园(体育公园店)</p>
+					<p class="p2">商家累积评分暂无评分</p>
+					<p>地址：丰台区方庄地区蒲方路7号西（方庄环岛北100</p>
+					<p>米方庄体育公园东门）</p>
+					<p class="p2">查看地图 公交/驾车去这里</p>
+					<p>地铁：距蒲黄榆站约734米</p>
+					<p>电话：13901234567</p>
+				</div>
+			</div>
+			<div class="map1 clearfix">
+				<h4>商家位置</h4>
+				<div class="map1_l">
+					<img src="images/ss_10.png" alt="商家位置" />
+				</div>
+				<div class="map1_r ">
+					<p class="p1">燕京啤酒花园(体育公园店)</p>
+					<p class="p2">商家累积评分暂无评分</p>
+					<p>地址：丰台区方庄地区蒲方路7号西（方庄环岛北100</p>
+					<p>米方庄体育公园东门）</p>
+					<p class="p2">查看地图 公交/驾车去这里</p>
+					<p>地铁：距蒲黄榆站约734米</p>
+					<p>电话：13901234567</p>
+				</div>
+			</div>
+		</div>
+		<div class="listbox_r">
+			<div class="down">
+				<a href="#"><div class="t"></div></a>
+				<a href="#"><div class="b"></div></a>
+			</div>
+			<div class="hot">
+				<h3>热门专题</h3>
+				<a href="#">
+					<img src="images/1.png" />
+				</a>
+			</div>
+			<div class="guess">
+				<h3>猜你喜欢</h3>
+				<a href="#" >
+					<img src="images/4.jpg" />
+				</a>
+				<h4>【西单】掉香缘掉渣饼掉香缘掉渣饼</h4>
+				<p class="clearfix">
+					<span>￥4.9</span>
+					已售
+					<span class="span2">138155</span>
+				</p>
+			</div>
+			<div class="banner1">
+				<p>薇拉宫邸私人婚礼会所，免…</p>
+				<p>薇拉宫邸私人婚礼会所，免…</p>
+				<p>薇拉宫邸私人婚礼会所，免…</p>
+			</div>
+			<div class="sidebar_b">
+				<a href="#"></a>
+				<p>有您的意见美团才能更好&gt;&gt;</p>
+				<p class="p2">希望在美团网组织团购吗？<br />
+					请提交团购信息&gt;&gt;
+				</p>
+			</div>
+			<div class="foot" id="browse">
+				<h4>最近浏览
+					<span id="span1">清空</span>
+				</h4>
+				<ul class="footlist clearfix">
+			<li class="first clearfix">
+				<a href="#"><img src="images/qiushi.jpg" /></a>
+				<div>
+					<p>宝利国际影城</p>
+					<p><span>￥41</span> 门店价：<span class="span2">￥99</span></p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img src="images/qiushi.jpg" /></a>
+				<div>
+					<p>宝利国际影城</p>
+					<p><span>￥41</span> 门店价：<span class="span2">￥99</span></p>
+				</div>
+			</li>
+		</ul>
+			</div>
+		</div>
+	</div>
+	<div class="fk_wrap">
+    	<ul class="clearfix fk_dy">
+        	<li class="li1">
+            	<p>获取更新</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>邮件订阅</a></div>
+                <div><a href="javascript:;"><span>•</span>Iphone/Android</a></div>
+                <div><a href="javascript:;"><span>•</span>美团QQ空间</a></div>
+                <div><a href="javascript:;"><span>•</span>美团新浪微博</a></div>
+                <div><a href="javascript:;"><span>•</span>sitemap</a></div>
+                <div><a href="javascript:;"><span>•</span>RSS订阅</a></div>
+            </li>
+            <li class="li1">
+            	<p>商务合作</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>提供团购信息</a></div>
+                <div><a href="javascript:;"><span>•</span>美团商家营销平台</a></div>
+                <div><a href="javascript:;"><span>•</span>市场合作</a></div>
+                <div><a href="javascript:;"><span>•</span>美团联盟</a></div>
+                <div><a href="javascript:;"><span>•</span>廉政邮箱</a></div>
+                <div><a href="javascript:;"><span></span>lianzheng@meituan.com</a></div>
+            </li>
+            <li class="li1">
+            	<p>公司信息</p>
+                <div><a href="javascript:;"><span>•</span>关于美团</a></div>
+                <div><a href="javascript:;"><span>•</span>美团承诺</a></div>
+                <div><a href="javascript:;"><span>•</span>媒体报道</a></div>
+                <div><a href="javascript:;"><span>•</span>加入我们</a></div>
+                <div><a href="javascript:;"><span>•</span>法律声明</a></div>
+                <div><a href="javascript:;"><span>•</span>用户协议</a></div>
+            </li>
+            <li class="li1">
+            	<p>用户帮助</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>申请退款</a></div>
+                <div><a href="javascript:;"><span>•</span>查看美团券密码</a></div>
+                <div><a href="javascript:;"><span>•</span>常见问题</a></div>
+                <div><a href="javascript:;"><span>•</span>开放API</a></div>
+                <div><a href="javascript:;"><span>•</span>美团云</a></div>
+                <div><a href="javascript:;"><span>•</span>防诈骗公告</a></div>
+            </li>
+            <li class="li2">
+            	<img src="images/fk_foot1.jpg" width="226" height="89" alt=""/>
+                <div><a class="a1" href="javascript:;">退款、退换、货查看美团券</a></div>
+                <div><a class="a2" href="javascript:;">参考教程轻松搞定</a></div>
+                <div><a class="a3"href="javascript:;">客服电话:400-660-5335</a></div>
+                <div><a href="javascript:;">服务时间:每天9:00-22:00</a></div>
+            </li>
+        </ul>
+        <ul class="fk_icp clearfix">
+        	<li><a href="javascript:;">2015美团网团购</a></li>
+            <li><span>meituan.com</span></li>
+            <li><a href="javascript:;">京ICP证070791号</a></li>
+            <li><a href="javascript:;">京公网安备110105020255457号</a></li>
+            <li><a href="javascript:;">电子公告服务规则</a></li>
+        </ul>
+        <a class="fk_xx"href="javascript:;"><img src="images/fk_foot3.jpg" width="124" /></a><a href="javascript:;"><img src="images/fk_foot2.jpg" width="124" /></a><a href="javascript:;"><img src="images/fk_foot4.jpg" width="115" /></a><a href="javascript:;"><img src="images/fk_foot5.jpg" width="142" /></a><a href="javascript:;"><img src="images/fk_oot6.jpg" width="123" alt=""/></a>
+    </div>
+	<div class="xiaomei"><i></i><b></b></div>
+</body>
+</html>

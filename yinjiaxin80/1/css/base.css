@@ -1,0 +1,31 @@
+
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:'微软雅黑'}
+h1,h2,h3,h4,h5,h6{
+	font-size:12px;
+	font-weight:normal;}
+a{
+	text-decoration:none;
+	color:#000;}
+ol,ul{
+	list-style:none;}
+a img{
+	border:none;}
+img{
+	vertical-align:middle;}
+i,em{
+	font-style:normal;}
+b.strong{
+	font-weight:normal;}
+.clearfix:after{
+	display:block; content:""; clear:both;}
+.clearfix{
+	zoom:1;}
+p{}
+input{
+	outline:none;
+	resize:none;}

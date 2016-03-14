@@ -1,0 +1,1116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/meituan.css" />
+<script src="js/meituan.js"></script>
+<script src="js/move.js"></script>
+<script>
+window.onload=function (){
+	meituan.search();
+	meituan.rlist();
+	meituan.banner();
+	meituan.foodlist();	
+	meituan.banner2();
+	meituan.countDown();
+	meituan.gotop();
+	meituan.countDown();
+	meituan.content();
+	meituan.sidelist();
+};
+</script>
+</head>
+
+<body> 
+	<div class="head">
+		<div class="head-t clearfix">
+			<ul class="llist clearfix">
+				<li class=" clearfix">
+					<i class="star"></i>
+					<a href="#" class="a1">收藏美团</a>
+				</li>
+				<li><a href="#" class="a2">登陆</a></li>
+				<li><a href="#" class="a3">注册</a></li>
+				<li>
+					<i class="phone"></i>
+					<a href="#" class="a4">手机美团</a>
+					
+				</li>
+			</ul>
+			<ul class="rlist" id="#rlist">
+				<li>
+					<a href="#" class="a1">我的订单</a>
+				</li>
+				<li><a href="#">我的美团</a>
+					<ul>
+						<li>我的美团</li>
+						<li>购买的产品</li>
+					</ul>
+				</li>
+				<li><a href="#">最近浏览</a>
+					<ul>
+						<li>最近浏览</li>
+						<li>购买的产品</li>
+					</ul>
+				</li>
+				<li><a href="#">购物车0件</a>
+					<ul>
+						<li>购买的产品</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">联系客服</a>
+					<ul>
+						<li>联系客服</li>
+						<li>联系客服</li>
+						<li>联系客服</li>
+						<li>联系客服</li>
+						<li>联系客服</li>
+						<li>联系客服</li>
+					</ul>
+				</li>
+				<li><a href="#">我是商家</a>
+					<ul>
+						<li>联系商家</li>
+						<li>我是商家</li>
+					</ul>
+				</li>
+				<li><a href="#" class="a2">更多</a>
+					<ul>
+						<li>更多</li>
+						<li>更多</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner" id="banner">
+		<i></i>
+		<img _src="images/banner.jpg" />
+	</div>
+	
+	<div class="headbox clearfix">
+		<h1><a href="#">美团</a></h1>
+		<div class="map">北京
+			<span>切换城市</span>
+		</div>
+		<div class="search clearfix" id="search">
+			<p>团购</p>
+			<input type="text" class="txt" />
+			<input type="button" value="搜索" class="btn" />
+			<i>请输入商品名称、地址等</i>
+		</div>
+		<div class="headbox-r">
+			<p><i class="lcon"></i><span>临时退</span></p>
+			<p><i class="mcon"></i><span>不满意免单</span></p>
+			<p><i class="rcon"></i>过期退</p>
+		</div>
+	</div>
+	<div class="content clearfix">
+		<div class="content-lbox">
+			<h3>全部分类</h3>
+		<ul class="contlist-l" id="sidelist">
+			<li class="clearfix">
+				<i></i>
+				<h4>美食</h4>
+				<a href="#">自助餐</a>
+				<a href="#">代金券</a>
+				<div class="div1">
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+				</div>
+			</li>
+			<li class="clearfix">
+				<h4>酒店/客栈</h4>
+				<i></i>
+				<a href="#">经济型酒店</a>
+				<div>
+					<a href="javascript:;">经济型酒店</a>
+					<a href="javascript:;">经济型酒店</a>
+					<a href="javascript:;">经济型酒店</a>
+					<a href="javascript:;">经济型酒店</a>
+					<a href="javascript:;">经济型酒店</a>
+					<a href="javascript:;">经济型酒店</a>
+				</div>
+			</li>
+			<li>电影/在线选座<div>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+				</div></li>
+			<li>KTV/在线预定<div>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+				</div></li>
+			<li>休闲娱乐<div>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+					<a href="javascript:;">自助餐</a>
+				</div></li>
+			<li>周边游/旅游</li>
+			<li>生活服务</li>
+			<li>购物</li>
+			<li>丽人</li>
+		</ul>
+		</div>
+		<div class="content-rbox clearfix">
+			<ul class="cont-rlist clearfix">
+				<li class="l1">首页</li>
+				<li>今日新单</li>
+				<li class="l1">购物</li>
+				<li>身边外卖</li>
+				<li>名店抢购</li>
+			</ul>
+			<div class="content-rbox-l clearfix">
+				<ul class="tlist clearfix">
+					<li>
+						<span>热门团购</span>
+						<a href="#">代金券</a>
+						<a href="#">经济型酒店</a>
+						<a href="#">电影</a>
+						<a href="#">婚纱摄影</a>
+						<a href="#">美发</a>
+						<a href="#">足疗按摩</a>
+						<a href="#">蛋糕甜点</a>
+						<a href="#">火锅</a>
+						<a href="#">儿童摄影</a>
+					</li>
+					<li>
+						<i>更多</i>
+						<span>全部地区</span>
+						<a href="#">朝阳区</a>
+						<a href="#">海淀区</a>
+						<a href="#">丰台区</a>
+						<a href="#">朝阳区</a>
+						<a href="#">海淀区</a>
+						<a href="#">丰台区</a>
+						<a href="#">朝阳区</a>
+						<a href="#">海淀区</a>
+						<a href="#">丰台区</a>
+					</li>
+					<li>
+						<span>热门商圈</span>
+						<a href="#">望京</a>
+						<a href="#">昌平镇</a>
+						<a href="#">亦庄</a>
+						<a href="#">望京</a>
+						<a href="#">昌平镇</a>
+						<a href="#">亦庄</a>
+						<a href="#">望京</a>
+						<a href="#">昌平镇</a>
+						<a href="#">亦庄</a>
+					</li>
+				</ul>
+				<ul class="blist clearfix">
+					<li class="l1">
+						<a href="#"><img _src="images/lashangyin.jpg" /></a>
+						<div class="clearfix">
+							<div class="blist-lbox">
+								<h4><a href="#">海塘海鲜自助火锅</a></h4>
+								<p>海塘海鲜午餐自助，提供免费wifi</p>
+							</div>
+							<span>￥198 元 </span>
+						</div>
+						<i>8.7</i>
+					</li>
+					<li class="l2">
+						<a href="#"><img _src="images/lashangyin.jpg" /></a>
+						<div class="clearfix">
+							<div class="blist-lbox">
+								<h4><a href="#">海塘海鲜自助火锅</a></h4>
+								<p>海塘海鲜午餐自助，提供免费wifi</p>
+							</div>
+							<span>￥ 53 元 </span>
+						</div>
+						<i>8.8</i>
+					</li>
+				</ul>
+			</div>
+			<div class="conttent-rbox-r">
+				<div class="conttent-rbox-r-t">
+					<img _src="images/1yuanqi.png" />
+				</div>
+				<div class="conttent-rbox-r-b">
+					<a href="#">
+						<h3>每日上新</h3>
+						<p>吃喝玩乐最低价</p>
+						<img _src="images/meirishangxin.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="starshop clearfix">
+		<h2>名店抢购
+			<i></i>
+		</h2>
+		<p id="count-down">
+			<b class="start"></b>
+			<span>0</span>
+			<span>0</span>
+			<b class="span1">:</b>
+			<span>1</span>
+			<span>9</span>
+			<b class="span1">:</b>
+			<span>1</span>
+			<span>2</span>
+		</p>
+	</div>
+	<div class="starbox" id="starbox">
+		<ul class="startlist clearfix">
+			<li>
+				<a href="#">
+					<img _src="images/lanzuan.jpg" />
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/b0978dc149c3b4796057ba8f8e748028503489.jpg.webp.jpg" />
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/lanzuan.jpg" />
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/d1.jpg"/>
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/lashangyin.jpg"/>
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			
+			<li>
+				<a href="#">
+					<img _src="images/haohuaguoji.jpg"/>
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/lanzuan.jpg" />
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/d4.jpg"/>
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img _src="images/lanzuan.jpg" />
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			<li>
+				<a href="#">
+					<img  _src="images/d4.jpg"/>
+				</a>
+				<h4><a href="#">【7店通用】松子日本料理</a></h4>
+				<p class="clearfix">
+					<span class="span1">￥95</span>
+					<span class="span2">已售35532</span>
+				</p>
+				<b>手机购买立减￥5</b>
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</li>
+			aa
+		</ul>
+		<a href="jacascript:;" class="lcon" id="lcon"></a>
+		<a href="jacascript:;" class="rcon" id="rcon"></a>
+	</div>
+	
+	<div class="food clearfix">
+		<h2>||<a href="#">美食</a></h2>
+		<ul class="foodlist">
+			<li><a href="#">美食</a></li>
+			<li><a href="#">代金券</a></li>
+			<li><a href="#">自助餐</a></li>
+			<li><a href="#">火锅</a></li>
+			<li><a href="#">烧烤烤肉</a></li>
+			<li><a href="#">香锅烤鱼</a></li>
+			<li><a href="#">西餐</a></li>
+			<li><a href="#">全部 &gt;</a></li>
+		</ul>
+	</div>
+	<ul class="foodmain clearfix" id="foodmain">
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+		<li>
+			<a href="#">
+				<img _src="images/xiewangfu.jpg"/>
+			</a>
+			<h4><a href="#">【5店通用】戈拿旺巴西烤肉</a></h4>
+			<p>戈拿旺巴西烤肉，提供免费wifi</p>
+			<p class="clearfix">
+				<span class="span1">￥88</span>
+				<span class="span2">已售35532</span>
+			</p>
+			<b>698人已评价</b>
+			<i class="i1"></i>
+			<i class="i2"></i>
+		</li>
+	</ul>
+	<div class="banner2" id="banner-btn"><img _src="images/kuanian.png" /></div>
+	<div class="banner3" id="banner3">
+		<div class="opa"></div>
+		<div class="bannerlogo">
+			<img _src="images/kn.png" />
+		</div>
+		<i id="close"></i>
+	</div>
+	<ul class="gotop" id="gotop">
+		<li class="l1"><a href="java_srcipt:;">回到顶部</a></li>
+		<li class="l2"><a href="java_srcipt">问卷调查</a></li>
+		<li class="l3"><a href="java_srcipt">帮助中心</a>
+		</li>
+		<li class="l4"><a href="java_srcipt">意见反馈</a></li>
+	</ul>
+	
+	<div class="fk_wrap">
+    	<ul class="clearfix fk_dy">
+        	<li class="li1">
+            	<p>获取更新</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>邮件订阅</a></div>
+                <div><a href="javascript:;"><span>•</span>Iphone/Android</a></div>
+                <div><a href="javascript:;"><span>•</span>美团QQ空间</a></div>
+                <div><a href="javascript:;"><span>•</span>美团新浪微博</a></div>
+                <div><a href="javascript:;"><span>•</span>sitemap</a></div>
+                <div><a href="javascript:;"><span>•</span>RSS订阅</a></div>
+            </li>
+            <li class="li1">
+            	<p>商务合作</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>提供团购信息</a></div>
+                <div><a href="javascript:;"><span>•</span>美团商家营销平台</a></div>
+                <div><a href="javascript:;"><span>•</span>市场合作</a></div>
+                <div><a href="javascript:;"><span>•</span>美团联盟</a></div>
+                <div><a href="javascript:;"><span>•</span>廉政邮箱</a></div>
+                <div><a href="javascript:;"><span></span>lianzheng@meituan.com</a></div>
+            </li>
+            <li class="li1">
+            	<p>公司信息</p>
+                <div><a href="javascript:;"><span>•</span>关于美团</a></div>
+                <div><a href="javascript:;"><span>•</span>美团承诺</a></div>
+                <div><a href="javascript:;"><span>•</span>媒体报道</a></div>
+                <div><a href="javascript:;"><span>•</span>加入我们</a></div>
+                <div><a href="javascript:;"><span>•</span>法律声明</a></div>
+                <div><a href="javascript:;"><span>•</span>用户协议</a></div>
+            </li>
+            <li class="li1">
+            	<p>用户帮助</p>
+                <div><a class="a1" href="javascript:;"><span>•</span>申请退款</a></div>
+                <div><a href="javascript:;"><span>•</span>查看美团券密码</a></div>
+                <div><a href="javascript:;"><span>•</span>常见问题</a></div>
+                <div><a href="javascript:;"><span>•</span>开放API</a></div>
+                <div><a href="javascript:;"><span>•</span>美团云</a></div>
+                <div><a href="javascript:;"><span>•</span>防诈骗公告</a></div>
+            </li>
+            <li class="li2">
+            	<img _src="images/fk_foot1.jpg" />
+                <div><a class="a1" href="javascript:;">退款、退换、货查看美团券</a></div>
+                <div><a class="a2" href="javascript:;">参考教程轻松搞定</a></div>
+                <div><a class="a3"href="javascript:;">客服电话:400-660-5335</a></div>
+                <div><a href="javascript:;">服务时间:每天9:00-22:00</a></div>
+            </li>
+        </ul>
+        <ul class="fk_icp clearfix">
+        	<li><a href="javascript:;">2015美团网团购</a></li>
+            <li><span>meituan.com</span></li>
+            <li><a href="javascript:;">京ICP证070791号</a></li>
+            <li><a href="javascript:;">京公网安备110105020255457号</a></li>
+            <li><a href="javascript:;">电子公告服务规则</a></li>
+        </ul>
+        <a class="fk_xx"href="javascript:;"><img src="images/fk_foot3.jpg" width="124" /></a><a href="javascript:;"><img src="images/fk_foot2.jpg" width="124" /></a><a href="javascript:;"><img src="images/fk_foot4.jpg" width="115" /></a><a href="javascript:;"><img src="images/fk_foot5.jpg" width="142" /></a><a href="javascript:;"><img src="images/fk_oot6.jpg" width="123" alt=""/></a>
+    </div>
+</body>
+</html>
